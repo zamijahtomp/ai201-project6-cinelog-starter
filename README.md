@@ -20,7 +20,7 @@ The app starts on `http://localhost:5000` and uses a local SQLite database (`cin
 
 ## Project Structure
 
-```
+```txt
 ai201-project6-cinelog-starter/
 ├── app.py                     # Flask app factory
 ├── extensions.py              # Shared extension instances (db)
@@ -43,10 +43,10 @@ ai201-project6-cinelog-starter/
 
 ### Films
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/films/` | List all films (supports `?genre=` and `?year=` filters) |
-| GET | `/films/<film_id>` | Get a single film by UUID |
+| Method | Endpoint         | Description                                                     |
+|--------|------------------|-----------------------------------------------------------------|
+| GET    | `/films/`        | List all films (supports `?genre=` and `?year=` filters)        |
+| GET    | `/films/<film_id>` | Get a single film by UUID                                    |
 
 ### Collection
 
